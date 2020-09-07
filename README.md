@@ -1,6 +1,6 @@
 # Forensic Artifact Collection Tool Matrix
 
-Evaluation of different forensic artifact collection tools, also known as
+Evaluation and comparison of different forensic artifact collection tools, also known as
 forensic live collection.
 
 What the emojis mean
