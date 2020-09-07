@@ -11,17 +11,17 @@ What the emojis mean
 
 Initial tweet: https://twitter.com/swisscom_csirt/status/1301877750538567680
 
-| Requirement <br /> -------------- <br />Tool           | independence of admin rights | flexible collection of artifacts and system configuration  | external tool execution | free and open source | free download | easy extensible | multi-platform | one-shot binary | output parsing | active development | easy to use output format |
+| Requirement <br /> -------------- <br />Tool | independence of admin rights | flexible collection of artifacts and system configuration  | external tool execution | free and open source | free download | easy extensible | multi-platform | one-shot binary | output parsing | active development | easy to use output format |
 | :------------- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-| KAPE |:cloud:| | |||||||||
-| Redline |:cloud:| :partly_sunny: <br /> limited set of predefined artifacts | |||||||||
-| IRTriage |:cloud:|  | |||||||||
-| IREC | :cloud: |  | |||||||||
-| Invoke-LiveResponse | :sunny: |  | |||||||||
-| DFIR ORC | :cloud: |  | |||||||||
-| CyLR | :cloud: |  | |||||||||
-| FastIR Collector | :cloud: |  | |||||||||
-| artifactcollector | :cloud: |  | ||||||| :hatching_chick: ||
+| KAPE |:cloud:|:sunny: |||:sunny:|:sunny:|:cloud:||||:sunny:|
+| Redline |:cloud:| :partly_sunny: <br /> limited set of predefined artifacts |||:sunny:||:cloud:|||| :cloud: <br /> dedicated tool used to analyse artifacts|
+| IRTriage |:cloud:| :sunny: |||:sunny:||:cloud:|||:scream: <br />last change 4 years old |:sunny:|
+| IREC | :cloud: | :sunny: | ||:sunny:||:cloud:||||:sunny:|
+| Invoke-LiveResponse | :sunny: |  :sunny:|:sunny: |:sunny:|:sunny:||:cloud:||||:sunny:|
+| DFIR ORC | :cloud: |:sunny:  |:sunny: |:sunny:|:sunny:||:cloud:||||:sunny:|
+| CyLR | :cloud: |:sunny:  | ||:sunny:||:sunny:||||:sunny:|
+| FastIR Collector | :cloud: | :sunny: | |:sunny:|:sunny:||:cloud:|||:scream: <br />last change 3 years old |:sunny:|
+| artifactcollector | :cloud: |:sunny:  |:sunny: |:sunny:|:sunny:|:partly_sunny:|:sunny:||| :hatching_chick: |:partly_sunny:<br />artifactstore|
 
 
 Further reference: https://github.com/meirwah/awesome-incident-response#windows-evidence-collection 
