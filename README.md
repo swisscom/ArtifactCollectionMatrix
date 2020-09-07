@@ -5,7 +5,7 @@ live collection without having an agent on the system.
 
 What the emojis mean
 * :sunny: Fully fulfilled requirement
-* :partly_sunny: Partially requirement
+* :partly_sunny: Partially fulfilled requirement
 * :cloud: Tool doesn't cover feature or requirement
 
 How the different requirements are weighted is left to the reader.
