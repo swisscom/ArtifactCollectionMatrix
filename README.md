@@ -1,6 +1,7 @@
 # Forensic Artifact Collection Tool Matrix
 
-Evaluation of different artifact collection tools.
+Evaluation of different artifact collection tools for Windows, also known as
+live collection.
 
 What the emojis mean
 * :sunny: Fully fulfilled requirement
@@ -8,6 +9,14 @@ What the emojis mean
 * :cloud: Tool doesn't cover feature or requirement
 
 How the different requirements are weighted is left to the reader.
+
+<!-- vim-markdown-toc GFM -->
+
+* [Windows live collection tools](#windows-live-collection-tools)
+* [Contribution](#contribution)
+* [License](#license)
+
+<!-- vim-markdown-toc -->
 
 ##  Windows live collection tools
 
