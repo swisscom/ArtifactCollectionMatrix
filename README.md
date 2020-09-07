@@ -1,7 +1,7 @@
 # Forensic Artifact Collection Tool Matrix
 
-Evaluation of different artifact collection tools for Windows, also known as
-live collection without having an agent on the system.
+Evaluation of different forensic artifact collection tools, also known as
+forensic live collection.
 
 What the emojis mean
 * :sunny: Fully fulfilled requirement
