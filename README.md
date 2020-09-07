@@ -46,7 +46,7 @@ and correct how we rated the coverage for a requirement.
 
 [![License: CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-The content of this project is licensed under a 
+The work by Swisscom CSIRT is licensed under a 
 [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 License](https://creativecommons.org/licenses/by-sa/4.0/).
 
