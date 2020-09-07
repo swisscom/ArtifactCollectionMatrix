@@ -1,7 +1,7 @@
 # Forensic Artifact Collection Tool Matrix
 
 Evaluation of different artifact collection tools for Windows, also known as
-live collection.
+live collection without having an agent on the system.
 
 What the emojis mean
 * :sunny: Fully fulfilled requirement
@@ -34,8 +34,14 @@ Initial tweet: https://twitter.com/swisscom_csirt/status/1301877750538567680
   | [FastIR Collector](https://github.com/SekoiaLab/Fastir_Collector)                             | :cloud:                      | :sunny:                                                   | :partly_sunny:          | :sunny:              | :sunny:                                              | :partly_sunny: <br /> Python code and re-compilation                                   | :cloud:        | :sunny:                                                 | :cloud:                                                                                                               | :scream: <br />last change 3 years old                               | :sunny:                                                 | 
   | [artifactcollector](https://github.com/forensicanalysis/artifactcollector)                            | :cloud:                      | :sunny:                                                   | :sunny:                 | :sunny:              | :sunny:                                              | :partly_sunny: <br /> Go, prepare artifacts in YAML and Go re-compilation              | :sunny:        | :sunny:                                                 | :cloud:                                                                                                               | :hatching_chick: <br /> young project on Github, only some month old | :partly_sunny:<br />artifactstore                       | 
 
+Further reference: https://github.com/meirwah/awesome-incident-response#windows-evidence-collection
 
-Further reference: https://github.com/meirwah/awesome-incident-response#windows-evidence-collection 
+Other tools for artifact collection (some of them need an agent on the target)
+* [GRR](https://github.com/google/grr)
+* [CrowdResponse](https://www.crowdstrike.com/resources/community-tools/crowdresponse/)
+* [Kansa](https://github.com/davehull/Kansa)
+* [Velociraptor](https://github.com/Velocidex/velociraptor)
+* [Hoarder](https://github.com/muteb/Hoarder)
 
 ## Contribution
 
