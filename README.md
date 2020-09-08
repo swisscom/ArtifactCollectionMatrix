@@ -44,6 +44,7 @@ Other tools for artifact collection
   * [F-Response](https://www.f-response.com)
 * agent-based
   * [GRR](https://github.com/google/grr)
+* both agent-less and agent-based possible
   * [Velociraptor](https://github.com/Velocidex/velociraptor)
 
 ## Contribution
