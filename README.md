@@ -37,14 +37,13 @@ Initial tweet: https://twitter.com/swisscom_csirt/status/1301877750538567680
 Further reference: https://github.com/meirwah/awesome-incident-response#windows-evidence-collection
 
 Other tools for artifact collection
-* agent-less
+* local collection
   * [CrowdResponse](https://www.crowdstrike.com/resources/community-tools/crowdresponse/)
   * [Kansa](https://github.com/davehull/Kansa)
   * [Hoarder](https://github.com/muteb/Hoarder)
+* network collection
   * [F-Response](https://www.f-response.com)
-* agent-based
   * [GRR](https://github.com/google/grr)
-* both agent-less and agent-based possible
   * [Velociraptor](https://github.com/Velocidex/velociraptor)
 
 ## Contribution
