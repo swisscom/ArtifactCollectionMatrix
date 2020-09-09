@@ -42,6 +42,7 @@ Other tools for artifact collection
   * [Kansa](https://github.com/davehull/Kansa)
   * [Hoarder](https://github.com/muteb/Hoarder)
   * [Velociraptor](https://github.com/Velocidex/velociraptor)
+  * [OSForensics](https://www.osforensics.com/osforensics.html)
 * online collection
   * [F-Response](https://www.f-response.com)
   * [GRR](https://github.com/google/grr)
