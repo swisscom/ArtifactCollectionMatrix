@@ -13,6 +13,7 @@ How the different requirements are weighted is left to the reader.
 <!-- vim-markdown-toc GFM -->
 
 * [Windows live collection tools](#windows-live-collection-tools)
+* [Linux live collection tools](#linux-live-collection-tools)
 * [Contribution](#contribution)
 * [License](#license)
 
@@ -53,7 +54,7 @@ Other tools for artifact collection
 
 
 
-## Linux Artefact Collection
+## Linux live collection tools
 
 
 
@@ -73,7 +74,7 @@ Other tools for artifact collection
 * online collection
   * [F- Response TACTICAL] (https://www.f-response.com/software/tac)
 
-  ## Contribution
+## Contribution
 
 Please fill an issue or make a pull request to improve the table, add tools
 and correct how we rated the coverage for a requirement.
