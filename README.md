@@ -69,10 +69,8 @@ Other tools for artifact collection
 Further reference: https://github.com/meirwah/awesome-incident-response#linux-evidence-collection
 
 Other tools for artifact collection
-* offline collection
-  * [
 * online collection
-  * [F- Response TACTICAL] (https://www.f-response.com/software/tac)
+  * [F- Response TACTICAL](https://www.f-response.com/software/tac)
 
 ## Contribution
 
