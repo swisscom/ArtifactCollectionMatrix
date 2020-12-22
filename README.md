@@ -35,8 +35,6 @@ Initial tweet: https://twitter.com/swisscom_csirt/status/1301877750538567680
   | [FastIR Collector](https://github.com/SekoiaLab/Fastir_Collector)                             | :cloud:                      | :sunny:                                                   | :partly_sunny:          | :sunny:              | :sunny:                                              | :partly_sunny: <br /> Python code and re-compilation                                   | :cloud:        | :sunny:                                                 | :cloud:                                                                                                               | :scream: <br />last change 3 years old                               | :sunny:                                                 | 
   | [artifactcollector](https://github.com/forensicanalysis/artifactcollector)                            | :cloud:                      | :sunny:                                                   | :sunny:                 | :sunny:              | :sunny:                                              | :partly_sunny: <br /> written in Go, prepare artifacts in YAML ([ForensicArtifacts](https://github.com/forensicartifacts/artifacts))         | :sunny:        | :sunny:                                                 | :cloud:                                                                                                               | :hatching_chick: <br /> young project on Github, only some month old | :partly_sunny:<br />artifactstore                       | 
 
-
-
 Further reference: https://github.com/meirwah/awesome-incident-response#windows-evidence-collection
 
 Other tools for artifact collection
@@ -52,11 +50,9 @@ Other tools for artifact collection
   * [GRR](https://github.com/google/grr)
   * [Velociraptor](https://github.com/Velocidex/velociraptor)
 
-
-
 ## Linux live collection tools
 
-
+Initial Tweet: https://twitter.com/swisscom_csirt/status/1341388348389244934
 
   | Requirement <br /> -------------- <br />Tool | independence of admin rights | flexible collection of artifacts and system configuration | external tool execution | free and open source | free download                                        | easy extensible                                                                        | multi-platform | one-shot binary                                         | output parsing                                                                                                        | active development                                                   | easy to use output format                               | 
   | :-------------                               | :-----:                      | :-----:                                                   | :-----:                 | :-----:              | :-----:                                              | :-----:                                                                                | :-----:        | :-----:                                                 | :-----:                                                                                                               | :-----:                                                              | :-----:                                                 | 
