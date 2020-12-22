@@ -13,6 +13,7 @@ How the different requirements are weighted is left to the reader.
 <!-- vim-markdown-toc GFM -->
 
 * [Windows live collection tools](#windows-live-collection-tools)
+* [Linux live collection tools](#linux-live-collection-tools)
 * [Contribution](#contribution)
 * [License](#license)
 
@@ -34,6 +35,8 @@ Initial tweet: https://twitter.com/swisscom_csirt/status/1301877750538567680
   | [FastIR Collector](https://github.com/SekoiaLab/Fastir_Collector)                             | :cloud:                      | :sunny:                                                   | :partly_sunny:          | :sunny:              | :sunny:                                              | :partly_sunny: <br /> Python code and re-compilation                                   | :cloud:        | :sunny:                                                 | :cloud:                                                                                                               | :scream: <br />last change 3 years old                               | :sunny:                                                 | 
   | [artifactcollector](https://github.com/forensicanalysis/artifactcollector)                            | :cloud:                      | :sunny:                                                   | :sunny:                 | :sunny:              | :sunny:                                              | :partly_sunny: <br /> written in Go, prepare artifacts in YAML ([ForensicArtifacts](https://github.com/forensicartifacts/artifacts))         | :sunny:        | :sunny:                                                 | :cloud:                                                                                                               | :hatching_chick: <br /> young project on Github, only some month old | :partly_sunny:<br />artifactstore                       | 
 
+
+
 Further reference: https://github.com/meirwah/awesome-incident-response#windows-evidence-collection
 
 Other tools for artifact collection
@@ -48,6 +51,26 @@ Other tools for artifact collection
   * [F-Response](https://www.f-response.com)
   * [GRR](https://github.com/google/grr)
   * [Velociraptor](https://github.com/Velocidex/velociraptor)
+
+
+
+## Linux live collection tools
+
+
+
+  | Requirement <br /> -------------- <br />Tool | independence of admin rights | flexible collection of artifacts and system configuration | external tool execution | free and open source | free download                                        | easy extensible                                                                        | multi-platform | one-shot binary                                         | output parsing                                                                                                        | active development                                                   | easy to use output format                               | 
+  | :-------------                               | :-----:                      | :-----:                                                   | :-----:                 | :-----:              | :-----:                                              | :-----:                                                                                | :-----:        | :-----:                                                 | :-----:                                                                                                               | :-----:                                                              | :-----:                                                 | 
+  | [Fast IR Artefacts](https://github.com/SekoiaLab/fastir_artifacts)                                         | :cloud:                      | :sunny: <br />[Forensics Artifact Repository](https://github.com/ForensicArtifacts/artifacts)                                                  | :sunny:                 | :sunny:              | :sunny:                        | :sunny: | :sunny:        | :cloud: <br />Require Python, pip and more  | :cloud:                                                                                                               | :sunny:                                                              | :sunny:                                                 | 
+  | [Live Response Collection](https://www.brimorlabs.com/tools/)                                      | :cloud:                      | :cloud:  | :sunny:                 | :sunny:              | :sunny:                       | :sunny:                                                                                | :sunny:        | :cloud:                                                 | :cloud:                                                                                                               | :sunny:                   | :sunny:  | 
+  | [ir-rescue](https://github.com/diogo-fernan/ir-rescue)                                     | :cloud:                      | :cloud:                                                  | :sunny:                 | :sunny: <br /> Commercial usage needs permission             | :sunny:                                              | :sunny: <br /> (Bash v4+)                                        | :sunny:        | :cloud: <br /> [AVML](https://github.com/microsoft/avml) for memory dump                       | :cloud:                                                         | :sunny:                               | :sunny:                                                 | 
+  | [CyLR](https://github.com/orlikoski/CyLR)                                         | :sunny:                      | :sunny:                                                   | :cloud:                 | :sunny:              | :sunny:  | :partly_sunny: <br /> .NET code and recompilation                                                                               | :sunny:        | :sunny: <br />.NET Binary                                                 | :cloud:  | :partly_sunny: <br />[Open Letter to the users](https://docs.google.com/document/d/1L6CBvFd7d1Qf4IxSJSdkKMTdbBuWzSzUM3u_h5ZCegY/edit?usp=sharing)                                                             | :sunny:                                                 | 
+  | [artifactcollector](https://github.com/forensicanalysis/artifactcollector)                          | :cloud:                      | :sunny: <br />[Forensics Artifact Repository](https://github.com/ForensicArtifacts/artifacts)                                                   | :sunny:                 | :sunny:              | :sunny:                                              | :partly_sunny: <br /> Prepare artifacts in YAML and Go compilation                                           | :sunny:        | :sunny:          | :cloud:                                                                                                               | :sunny:                                                       | :partly_sunny: <br />ArtefactStore                                                | 
+  
+Further reference: https://github.com/meirwah/awesome-incident-response#linux-evidence-collection
+
+Other tools for artifact collection
+* online collection
+  * [F- Response TACTICAL](https://www.f-response.com/software/tac)
 
 ## Contribution
 
