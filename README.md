@@ -1,4 +1,4 @@
-# Forensic Artifact Collection Tool Matrix
+# Forensic Artifact Live Collection Tool Matrix
 
 Evaluation and comparison of different forensic artifact collection tools, also known as
 forensic live collection.
@@ -10,15 +10,11 @@ What the emojis mean
 
 How the different requirements are weighted is left to the reader.
 
-<!-- vim-markdown-toc GFM -->
-
 * [Windows live collection tools](#windows-live-collection-tools)
 * [Linux live collection tools](#linux-live-collection-tools)
 * [MacOS live collection tools](#macos-live-collection-tools)
 * [Contribution](#contribution)
 * [License](#license)
-
-<!-- vim-markdown-toc -->
 
 ##  Windows live collection tools
 
