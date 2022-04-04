@@ -58,12 +58,18 @@ Initial Tweet: https://twitter.com/swisscom_csirt/status/1341388348389244934
   | [ir-rescue](https://github.com/diogo-fernan/ir-rescue)                                     | :cloud:                      | :cloud:                                                  | :sunny:                 | :sunny: <br /> Commercial usage needs permission             | :sunny:                                              | :sunny: <br /> (Bash v4+)                                        | :sunny:        | :cloud: <br /> [AVML](https://github.com/microsoft/avml) for memory dump                       | :cloud:                                                         | :sunny:                               | :sunny:                                                 | 
   | [CyLR](https://github.com/orlikoski/CyLR)                                         | :sunny:                      | :sunny:                                                   | :cloud:                 | :sunny:              | :sunny:  | :partly_sunny: <br /> .NET code and recompilation                                                                               | :sunny:        | :sunny: <br />.NET Binary                                                 | :cloud:  | :partly_sunny: <br />[Open Letter to the users](https://docs.google.com/document/d/1L6CBvFd7d1Qf4IxSJSdkKMTdbBuWzSzUM3u_h5ZCegY/edit?usp=sharing)                                                             | :sunny:                                                 | 
   | [artifactcollector](https://github.com/forensicanalysis/artifactcollector)                          | :cloud:                      | :sunny: <br />[Forensics Artifact Repository](https://github.com/ForensicArtifacts/artifacts)                                                   | :sunny:                 | :sunny:              | :sunny:                                              | :partly_sunny: <br /> Prepare artifacts in YAML and Go compilation                                           | :sunny:        | :sunny:          | :cloud:                                                                                                               | :sunny:                                                       | :partly_sunny: <br />ArtefactStore                                                | 
-  
+  | [DFIR_Linux_Collector](https://github.com/xophidia/DFIR_Linux_Collector) | :cloud: | :sunny: | :sunny: | :sunny: | :sunny: | :partly_sunny: | :sunny: <br />(Bash) | :cloud: | :cloud: | :sunny: | :sunny: (text, json, raw) |
+  | [UAC (Unix-like Artifacts Collector)](https://github.com/tclahr/uac) | :sunny: | :sunny: |  :sunny: | :sunny: | :sunny: | :sunny: | :cloud: <br />Require Python, pip. [AVML](https://github.com/microsoft/avml) for memory dump (Linux,macos,OpenBSD,FreeBSD,Solaris...) | :cloud: | :cloud: | :sunny: | :sunny: (yaml, text) |
+  | [Fennec](https://github.com/AbdulRhmanAlfaifi/Fennec) | :cloud: | :sunny: | :sunny: (osquery) | :sunny: (APL2,MIT) | :sunny: | :sunny: (Rust) | :sunny: | :sunny: (Linux, MacOS) | :sunny: | :sunny: | :sunny: (jsonl, kjson, csv) |
+  | [AchoirX](https://github.com/OMENScan/AChoirX) | :cloud: | :sunny: | :sunny: | :sunny: (GPLv2) | :sunny: | :sunny: (Golang) | :sunny: (Linux, MacOS, Windows) | :sunny: | :sunny: | :sunny: | :sunny: (text) |
+
 Further reference: https://github.com/meirwah/awesome-incident-response#linux-evidence-collection
 
 Other tools for artifact collection
 * online collection
   * [F- Response TACTICAL](https://www.f-response.com/software/tac)
+  * [Velociraptor](https://github.com/Velocidex/velociraptor). Offline collection can be imported in Velociraptor server.
+  * [Fennec](https://github.com/AbdulRhmanAlfaifi/Fennec) with osquery embedded or not, Rust. Can be imported in [Kuiper, Digital Forensics Investigation Platform](https://github.com/DFIRKuiper/Kuiper)
 
 ## MacOS live collection tools
 
@@ -72,8 +78,11 @@ Tools for artifact collection
   * [macOS Artifact Collector (macosac)](https://github.com/mnrkbys/macosac) - This is a DFIR tool for collecting artifact files on macOS. The "Extended Attributes" of artifact files are collected too. Furthermore, this tool can collect artifacts in Time Machine backups as well as ones on the current disk. This tool does not provide features for analyzing artifacts, so you can analyze them with your favorite artifact analyzing tools.
   * [AutoMacTC: Automated Mac Forensic Triage Collector](https://github.com/CrowdStrike/automactc) - This is a modular forensic triage collection framework designed to access various forensic artifacts on macOS, parse them, and present them in formats viable for analysis. The output may provide valuable insights for incident response in a macOS environment. Automactc can be run against a live system or dead disk (as a mounted volume.)
   * [macOS Triage Tool](https://github.com/Recruit-CSIRT/macOSTriageTool) - A DFIR tool to collect artifacts on macOS.
+  * [maOS Triage Collection Script - FSecureLABS](https://github.com/FSecureLABS/macOSTriageCollectionScript)
   * [OSXCollector](https://github.com/Yelp/osxcollector) - [ARCHIVED] OSXCollector is a forensic evidence collection & analysis toolkit for OSX.
   * [OSXAuditor](https://github.com/jipegit/OSXAuditor) - [NO LONGER MAINTAINED] OS X Auditor is a free Mac OS X computer forensics tool. OS X Auditor parses and hashes the various artifacts on the running system or a copy of a system you want to analyze. Forked by Yelp into osxcollector.
+  * [Velociraptor](https://github.com/Velocidex/velociraptor). Offline collection can be imported in Velociraptor server.
+  * [Fennec](https://github.com/AbdulRhmanAlfaifi/Fennec) with osquery embedded or not, Rust. Can be imported in [Kuiper, Digital Forensics Investigation Platform](https://github.com/DFIRKuiper/Kuiper)
 
 References
 * [OSX Forensics: a brief selection of useful tools](https://www.andreafortuna.org/2020/12/07/osx-forensics-a-brief-selection-of-useful-tools/)
